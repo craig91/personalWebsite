@@ -30,6 +30,11 @@ section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+body {
+  background-color: #f5f6f8;
+  margin: 0;
+}
 /* body {
   margin: 0;
   display: flex;

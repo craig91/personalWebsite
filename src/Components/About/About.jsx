@@ -1,3 +1,5 @@
+import './about.style.css';
+
 export function About() {
     return (
         <section id="about">
