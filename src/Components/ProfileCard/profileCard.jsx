@@ -11,7 +11,7 @@ export function ProfileCard() {
                 <img src={profilePhoto} alt='Craig Dejean' className='profile-img' />
                 <h1>Craig Dejean</h1>
                 <p className='title'> IT Engineer </p>
-                <p>NYC, Japan</p>
+                <p>Japan</p>
 
                 <div className='card-icons'>
                     <a href="https://github.com/craig91" target="_blank" rel="noopener noreferrer">

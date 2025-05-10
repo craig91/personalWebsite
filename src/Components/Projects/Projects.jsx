@@ -1,3 +1,4 @@
+import { SiBurpsuite, SiKalilinux, SiWireshark } from "react-icons/si";
 import { ProjectCard } from "../ProjectCardComponent/ProjectCard";
 import { FaReact, FaCss3Alt, FaGithub, FaNodeJs, FaCss3 } from "react-icons/fa";
 
@@ -20,6 +21,12 @@ export function Projects() {
             description: 'A personal portfolio showcasing my projects and skills',
             link: 'https://github.com/craig91/personalWebsite',
             tech: [<FaReact />, <FaCss3 />, <FaGithub />, <FaNodeJs />]
+        },
+        {
+            title: 'Home server logging and parsing',
+            description: 'Using splunk to monitor my home virtual servers',
+            link: 'blank',
+            tech: [<SiKalilinux />, <SiBurpsuite />, <SiWireshark />, ]
         }
     ]
     return (
